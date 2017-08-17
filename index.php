@@ -441,7 +441,7 @@
 
 						
 						<div class="col-md-3 col-sm-12 text-right"><!-- right btn -->
-							<a href="page-contact-3.html" class="btn btn-primary btn-lg">Nous contacter</a>
+							<a href="page-contact.php" class="btn btn-primary btn-lg">Nous contacter</a>
 						</div><!-- /right btn -->
 
 					</div>
