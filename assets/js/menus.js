@@ -6,7 +6,8 @@ $('#header').html('<header id="topNav"><div class="container">\
                                         <li class="dropdown"><a class="dropdown-toggle" href="page-presentation.html">A PROPOS DE NOUS</a>\
                                             <ul class="dropdown-menu nav nav-pills nav-main nav-onepage">\
                                                 <li class="dropdown"><a href="page-presentation.html">Présentation</a></li>\
-								                <li class="dropdown"><a href="page-equipe.html">Notre équipe</a></li>\
+								                <li class="dropdown"><a href="page-politique.html">Notre politique</a></li>\
+                                                <li class="dropdown"><a href="page-equipe.html">Notre équipe</a></li>\
 											    <li class="dropdown"><a href="page-clients.html">Nos clients</a></li>\
 											 </ul>\
                                         <li class="dropdown"><a class="dropdown-toggle" href="page-services.html">NOS SERVICES</a><ul class="dropdown-menu nav nav-pills nav-main nav-onepage">\

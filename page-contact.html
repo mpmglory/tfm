@@ -2,7 +2,7 @@
 	<html> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
-		<title>CONTACTS</title>
+		<title>Centacts*TFM</title>
 		<meta name="keywords" content="HTML5,CSS3,Template" />
 		<meta name="description" content="" />
 		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
@@ -62,7 +62,7 @@
             
             
 			<!-- PAGE HEADER -->
-			<section class="page-header page-header-xs parallax parallax-3" style="background-image:url('assets/images/accueil/slide2.jpg')">
+			<section class="page-header page-header-xs parallax parallax-3" style="background-image:url('assets/images/accueil/slide1.jpg')">
 				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
 
 				<div class="container">
@@ -96,7 +96,7 @@
 
 						<!-- FORM -->
 						<div class="col-md-9 col-sm-9">
-							<h2>Ecrivez nous</h2>
+							<h2>Ecrivez-nous</h2>
 
 							<p>
 								Laissez nous un message avec vos préoccupations et vos coordonnées. Nous nous ferons plaisir de revenir vers vous.
@@ -152,34 +152,35 @@
 
 									<div class="row">
 										<div class="form-group">
+                                            <div class="col-md-4">
+												<label for="contact_department">Civilité *</label>
+												<select class="form-control pointer" name="contact[department]">
+													<option value="">--- Selectionner ---</option>
+													<option value="Marketing">Mlle</option>
+													<option value="Webdesign">Mme</option>
+													<option value="Architecture">Mr</option>
+                                                    <option value="Architecture">Autre</option>
+												</select>
+											</div>
 											<div class="col-md-4">
-												<label for="contact:name">Full Name *</label>
+												<label for="contact:name">Nom *</label>
 												<input required type="text" value="" class="form-control" name="contact[name][required]" id="contact:name">
 											</div>
 											<div class="col-md-4">
-												<label for="contact:email">E-mail Address *</label>
+												<label for="contact:email">Adresse e-mail *</label>
 												<input required type="email" value="" class="form-control" name="contact[email][required]" id="contact:email">
-											</div>
-											<div class="col-md-4">
-												<label for="contact:phone">Phone</label>
-												<input type="text" value="" class="form-control" name="contact[phone]" id="contact:phone">
 											</div>
 										</div>
 									</div>
 									<div class="row">
 										<div class="form-group">
 											<div class="col-md-8">
-												<label for="contact:subject">Subject *</label>
+												<label for="contact:subject">Objet *</label>
 												<input required type="text" value="" class="form-control" name="contact[subject][required]" id="contact:subject">
 											</div>
-											<div class="col-md-4">
-												<label for="contact_department">Department</label>
-												<select class="form-control pointer" name="contact[department]">
-													<option value="">--- Select ---</option>
-													<option value="Marketing">Marketing</option>
-													<option value="Webdesign">Webdesign</option>
-													<option value="Architecture">Architecture</option>
-												</select>
+                                            <div class="col-md-4">
+												<label for="contact:phone">Téléphone</label>
+												<input type="text" value="" class="form-control" name="contact[phone]" id="contact:phone">
 											</div>
 										</div>
 									</div>
