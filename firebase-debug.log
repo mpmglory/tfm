@@ -1,0 +1,36 @@
+[debug] [2017-08-22T19:00:22.481Z] ----------------------------------------------------------------------
+[debug] [2017-08-22T19:00:22.485Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PLATA\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2017-08-22T19:00:22.485Z] CLI Version:   3.9.2
+[debug] [2017-08-22T19:00:22.485Z] Platform:      win32
+[debug] [2017-08-22T19:00:22.486Z] Node Version:  v6.10.1
+[debug] [2017-08-22T19:00:22.486Z] Time:          Tue Aug 22 2017 20:00:22 GMT+0100 (Afr. centrale Ouest)
+[debug] [2017-08-22T19:00:22.487Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-22T19:00:22.503Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-08-22T19:00:22.504Z] > authorizing via signed-in user
+[debug] [2017-08-22T19:00:22.507Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-22T19:00:22.507Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/KxrGaya3zQGkzIRMg53eauWJjuCb_6dsYEVkeynFSrw',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Aug 22 2017 20:00:22 GMT+0100 (Afr. centrale Ouest)
+[debug] [2017-08-22T19:00:23.904Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-22T19:00:24.024Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tfmcm-6b4b5  
+ Tue Aug 22 2017 20:00:24 GMT+0100 (Afr. centrale Ouest)
+[debug] [2017-08-22T19:00:26.359Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-22T19:00:26.362Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tfmcm-6b4b5/tokens  
+ Tue Aug 22 2017 20:00:26 GMT+0100 (Afr. centrale Ouest)
+[debug] [2017-08-22T19:00:29.449Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'tfmcm-6b4b5'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing . directory for upload...
+[debug] [2017-08-22T19:01:31.790Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/tfmcm-6b4b5/uploads/-KsAJJxQPPt6B8xkJble?fileCount=3936&message=  
+ Tue Aug 22 2017 20:01:31 GMT+0100 (Afr. centrale Ouest)
+[debug] [2017-08-22T19:20:28.708Z] Error: write ECONNRESET
+    at exports._errnoException (util.js:1018:11)
+    at WriteWrap.afterWrite (net.js:804:14)
+[error] 
+[error] Error: Server Error. write ECONNRESET
